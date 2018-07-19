@@ -1,0 +1,327 @@
+.opacity_bg,.opacity_bg1{
+	background:#000;
+	opacity:0.35;
+	width:100%;
+	height:100%;
+	position:fixed;
+	top:0px;
+	left:0px;
+	z-index:1111111111;
+	display: none;
+}
+.opacity_bg1{
+	background:#000;
+	opacity:0.9;
+	width:100%;
+	height:100%;
+	position:fixed;
+	top:0px;
+	left:0px;
+	z-index:1111;
+	display: none;
+}
+.dialog{
+	width:750px;
+	position:fixed;
+	z-index:111111111111111111;
+	background:#fff;
+	float:left;
+	font-family:"微软雅黑";top:405px;
+	left:50%;
+	margin-left:-440px;
+	top: 50%;
+	background-repeat: no-repeat;
+	background-size: 280px 100%;
+	background-position: 600px 0;
+	display: none;
+	padding-left: 130px;
+	font-size: 14px;
+}
+.forgot_link{
+	color: #0e62c0;
+	cursor: pointer;
+}
+#forgot,#reset,#ckyx{
+	width: 500px;
+	height: 400px;
+	margin-top: -200px;
+	margin-left: -250px;
+	text-align: center;
+	padding: 0;
+}
+#reset{
+	height: 560px;
+	margin-top: -280px;
+}
+#czcg h1,#ckyx h1{
+	width: 100%;
+}
+#ckyx{
+	height: 400px;
+	margin-top: -200px;
+	padding: 50px;
+	background-color: #fff;
+	text-align: center;
+}
+#czcg{
+	width: 400px;
+	height: 400px;
+	margin-top: -200px;
+	margin-left: -200px;
+	text-align: center;
+	padding: 60px;
+}
+#confirmationInformation,#mailboxCode,#gainSuccess{
+	width: 600px;
+	height: 300px;
+	margin-top: -150px;
+	margin-left: -300px;
+	text-align: left;
+	padding: 60px;
+}
+#gainSuccess{
+	height: 260px;
+	margin-top: -130px;
+	margin-left: -300px;
+}
+#mailboxCode p{
+	font-size: 14px;
+	color: #666;
+}
+#mailboxCode .mail,#gainSuccess .copy{
+	overflow: hidden;
+	margin-top: 30px;
+}
+#mailboxCode .mail input,#gainSuccess .copy input{
+	float: left;
+	height: 40px;
+	padding-left: 10px;
+	width: 250px;
+}
+#mailboxCode .mail .now,#gainSuccess .copy .now{
+	float: left;
+}
+#gainSuccess .copy{
+	margin-top: 50px;
+}
+
+#mailboxCode .mail .now,#mailboxCode .yz,#gainSuccess .copy .now{
+	width: 70px;
+	height: 40px;
+	color: #fff;
+	margin: 0 auto;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 40px;
+	background:#0e62c0;
+	border: none;
+}
+#mailboxCode .yz{
+	border-radius: 10px;
+	outline:none;
+}
+#mailboxCode .prompt{
+	height: 40px;
+	line-height: 40px;
+	color: red;
+}
+#confirmationInformation p{
+	font-size: 16px;
+	color: #666;
+	line-height: 25px;
+	text-indent: 2em;
+	margin-top: 40px;
+}
+#confirmationInformation p span{
+	color: #0e62c0;
+}
+#confirmationInformation .yesOrno{
+	width: 170px;
+	overflow: hidden;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+#confirmationInformation .yesOrno button{
+	width: 70px;
+	height: 40px;
+	color: #fff;
+	margin: 0 auto;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 40px;
+	background:#0e62c0;
+	border: none;
+	float: left;
+}
+#confirmationInformation .yesOrno .no{
+	float: right;
+}
+#ckyx p{
+	text-align: left;
+	font-size: 18px;
+}
+#czcg p{
+	text-align: center;
+	font-size: 18px;
+}
+#forgot input,#reset input{
+	padding-left: 16px;
+	width: 322px;
+	height: 48px;
+	line-height: 48px;
+	color: #666666;
+	border: 1px solid #bbbbbb;
+	border-radius: 3px;
+	margin-bottom: 32px;
+	font-size: 16px;
+}
+#forgot .delete,#gainSuccess .delete,#reset .delete,#ckyx .delete,#czcg .delete,#confirmationInformation .delete,#mailboxCode .delete{
+	width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 60px;
+    color: #666;
+}
+#forgot .delete:hover,#gainSuccess .delete:hover,#reset .delete:hover,#ckyx .delete:hover,#mailboxCode .delete:hover,#czcg .delete:hover,#confirmationInformation .delete:hover{
+	background-color: #ddd;
+	color: #fff;
+}
+#forgot .tishi,#reset .tishi{
+	margin: 0 auto;
+	padding: 16px;
+	width: 322px;
+	line-height: 25px;
+	color: #666666;
+	border-radius: 3px;
+	text-align: left;
+	margin-top: 10px;
+	color: red;
+	display: none;
+}
+#reset .tishi{
+	text-align: center;
+}
+#reset #reset_email{
+	background-color: #ddd;
+}
+#forgot .sub_password,#reset .reset_password1{
+	width: 322px;
+	height: 48px;
+	line-height: 48px;
+	color: #fff;
+	text-align: center;
+	border: 1px solid #0e62c0;
+	border-radius: 3px;
+	background: #0e62c0;
+	font-size: 18px;
+}
+.dialog h1{
+	font-size: 34px;
+	color: #333;
+	font-weight: bold;
+	height: 180px;
+	line-height: 180px;
+	width: 470px;
+}
+#register{
+	width: 880px;
+	height: 672px;
+	margin-top: -336px;
+	background-image: url(../img/signup.png);
+}
+#login{
+	width: 880px;
+	height: 584px;
+	margin-top: -292px;
+	background-image: url(../img/login.png);
+}
+.form{
+	width: 470px;
+}
+.form div{
+	position: relative;
+}
+.form div span{
+	position: absolute;
+	left: 332px;
+	top: 50px;
+	color: red;
+	font-size: 12px;
+}
+.form div p{
+	font-size: 18px;
+	color: #333;
+	font-weight: 600;
+	text-align: left;
+	margin-bottom: 16px;
+} 
+.form div input{
+	padding-left: 16px;
+	width: 322px;
+	height: 48px;
+	line-height: 48px;
+	color: #666666;
+	border: 1px solid #bbbbbb;
+	border-radius: 3px;
+	margin-bottom: 32px;
+	font-size: 16px;
+}
+.login,.register{
+	width: 322px;
+	height: 48px;
+	line-height: 48px;
+	color: #fff;
+	text-align: center;
+	border: 1px solid #0e62c0;
+	border-radius: 3px;
+	background: #0e62c0;
+	font-size: 16px;
+}
+.already{
+	position: absolute;
+	top: 190px;
+	right: 20px;
+	cursor: pointer;
+}
+.already1{
+	right:80px;
+}
+.already .quickly{
+	font-size: 30px;
+	font-weight: bolder;
+	color:#fff;
+	margin-bottom: 10px;
+}
+.already .en{
+	font-size: 28px;
+	font-weight: bolder;
+	color:#fff;
+}
+.already5 .quickly{
+	font-size: 22px;
+	font-weight: bolder;
+	color:#fff;
+	margin-bottom: 10px;
+}
+.already5 .en{
+	font-size: 18px;
+	font-weight: bolder;
+	color:#fff;
+}
+.delete{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 0px;
+	right:0px;
+	cursor: pointer;
+}
+.forget{
+	margin-top: 20px
+}

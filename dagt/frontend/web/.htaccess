@@ -1,0 +1,10 @@
+# 开启 mod_rewrite 用于美化 URL 功能的支持（译注：对应 pretty URL 选项）
+RewriteEngine on
+RewriteRule !\.(pdf|zip|js|ico|gif|jpg|jpeg|png|swf|css|woff|ttf|rar|xml|ani|cur|mp3|mp4|flv)$ index.php
+#如果请求的是真实存在的文件或目录，直接访问
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# 如果请求的不是真实文件或目录，分发请求至 index.php
+#暂不使用以下规则
+RewriteRule . index.php

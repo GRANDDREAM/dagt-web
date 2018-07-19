@@ -1,0 +1,416 @@
+body{
+	width: 100%;
+	font-family:"Microsoft YaHei";
+	background: #eeeeee;
+}
+.head{
+	width: 1000px;
+	margin: 30px auto;
+	overflow: hidden;
+}
+.head img{
+	display: block;
+	width: 219px;
+	height:50px;
+	float: left;
+}
+.head ul{
+	float: right;
+	overflow: hidden;
+	padding-top: 5px;
+}
+.head ul li{
+	float: left;
+	margin-left: 20px;
+	font-size: 16px;
+	color: #333;
+	cursor: pointer;
+}
+.foot{
+	overflow: hidden;
+	width: 1000px;
+	padding-bottom: 100px;
+	margin: 0 auto;
+}
+.foot .left{
+	float: left;
+	overflow: hidden;
+	height:48px;
+	width: 500px;
+	line-height: 48px;
+	color: #202020;
+}
+.foot .left .line{
+	margin: 0 15px;
+	color: #ddd;
+}
+.foot .left p:last-child{
+	margin-left: 15px;
+}
+.foot .right{
+	float: right;
+	overflow: hidden;
+}
+.foot .left img{
+	display: block;
+	width: 167px;
+	height:50px;
+	float: left;
+	margin-right: 15px;
+}
+.foot .left p{
+	float: left;
+}
+.foot .right a{
+	display: block;
+	width: 40px;
+	height:40px;
+	float: left;
+	margin-left: 40px;
+}
+.foot .right img{
+	display: block;
+	width: 40px;
+	height:40px;
+}
+.content{
+	width: 1000px;
+	margin: 60px auto;
+	background: #fff;
+	position: relative;
+	min-height: 1800px;
+	padding: 80px 0;
+}
+.bg1,.bg2,.bg3{
+	position: absolute;
+	display: block;
+	z-index: -2;
+}
+.bg1{
+	width: 161px;
+	height: 198px;
+	top: 35px;
+	left: -82px;
+}
+.bg2{
+	width: 164px;
+	height: 179px;
+	top: 470px;
+	right: -82px;
+}
+.bg3{
+	z-index: 111;
+	width: 239px;
+	height: 340px;
+	bottom: -185px;
+	right: -120px;
+}
+.wait{
+	position: absolute;
+	width: 110px;
+	height: 110px;
+	z-index: 222;
+	top: 0px;
+	right:0px;
+}
+.wait span{
+	position: absolute;
+	transform:rotate(45deg);
+	font-size: 20px;
+	color: #fff;
+	top: 22px;
+	right: 0px;
+}
+.wait_en{
+	position: absolute;
+	width: 110px;
+	height: 110px;
+	z-index: 222;
+	top: 0px;
+	right:0px;
+}
+.wait_en span{
+	position: absolute;
+	transform:rotate(45deg);
+	font-size: 14px;
+	color: #fff;
+	top: 26px;
+	right: -12px;
+}
+.kyc-logo{
+	display: block;
+	width: 164px;
+	height: 60px;
+	margin: 0 auto;
+	margin-bottom: 25px;
+}
+.colae-time{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 30px;
+	color: #707070;
+	font-size: 16px;
+}
+.yulan{
+	display: block;
+	width: 300px;
+	height: 25px;
+	margin: 0 auto;
+	font-size: 18px;
+	color: #000;
+	font-weight: 400;
+	text-align: center;
+	cursor: pointer;
+}
+.yulan img{
+	width: 25px;
+	height: 25px;
+	margin-right: 15px;
+}
+.form{
+	margin: 0 auto;
+	margin-top: 30px;
+	width: 520px;
+}
+.form ul li{
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+.form .error{
+
+	display: block;
+	width: 100%;
+	font-size: 18px;
+	color: red;
+	text-align: center;
+}
+.form ul li div:first-child{
+	float: left;
+}
+.form ul li div:last-child{
+	float: right;
+}
+.form ul li div p,.form ul li:last-child p{
+	font-size: 16px;
+	color: #333;
+	font-weight: bold;
+	text-align: left;
+	height:45px;
+	line-height: 45px;
+}
+.form ul li div input,#county{
+	padding-left: 16px;
+	font-size: 16px;
+	color: #666;
+	text-align: left;
+	line-height: 48px;
+	width: 238px;
+	height: 48px;
+	color: #666666;
+	background: #eeeeee;
+	border: 1px solid #bbbbbb;
+	border-radius: 3px;
+}
+#county,#passport-id{
+	width: 518px;
+}
+.authentication{
+	width: 520px;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+.card .upload{
+	margin-top: 26px;
+}
+.card{
+	display: none;
+}
+.idcard{
+	display: block;
+}
+.card .upload p:nth-child(1){
+	font-size: 18px;
+	color: #333;
+	font-weight: bold;
+}
+.card .upload p:nth-child(2){
+	font-size: 16px;
+	color: #666;
+	margin: 10px 0 20px 0;
+}
+.card .upload .photo{
+	overflow: hidden;
+	position: relative;
+}
+.card .upload .photo .real{
+	width: 240px;
+	height: 170px;
+	background-image: url(../img/drag.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	float: left;
+	position: relative;
+}
+.card .upload .photo .card_face_div{
+	position: absolute;
+}
+.card .upload .photo .real .example-photo{
+	position: absolute;
+	display: block;
+	width: 200px;
+	height: 130px;
+	top: 19px;
+	left: 18px;
+}
+.card .upload .photo .real .del{
+	position: absolute;
+	display: block;
+	width: 32px;
+	height: 32px;
+	z-index: 2222;
+	top: 10px;
+	right:10px;
+	display: none;
+}
+.card .upload .photo .example{
+	width: 240px;
+	height: 170px;
+	float: right;
+}
+.card .upload .photo .example img{
+	width: 100%;
+	height: 100%;
+}
+#positive{
+	width: 133px;
+	height: 170px;
+	float: left;
+	margin-left: 40px;
+}
+.coin-type,.coin-detail{
+	width: 516px;
+	margin: 0 auto;
+}
+.coin-type ul{
+	border: 2px solid #0e62c0;
+	height: 46px;
+	line-height: 46px;
+	overflow: hidden;
+	width: 50%;
+}
+.coin-type li{
+	color: #666666;
+	height: 46px;
+	line-height: 46px;
+	float: left;
+	width: 100%;
+	cursor: pointer;
+}
+.coin-type li img{
+	width: 30px;
+	height: 30px;
+	margin: -7px 16px 0 82px;
+}
+.coin-type .checked{
+	background: #0e62c0;
+}
+.coin-type .checked span{
+	color: #fff;
+}
+.coin-type p,.coin-detail p{
+	height: 65px;
+	line-height: 80px;
+	font-size: 18px;
+	color: #333;
+	font-weight: bold;
+}
+.coin-detail input{
+	padding-left: 16px;
+	font-size: 16px;
+	color: #666;
+	text-align: left;
+	line-height: 48px;
+	width: 518px;
+	height: 48px;
+	background: #eeeeee;
+	color: #666666;
+	border: 1px solid #bbbbbb;
+	border-radius: 3px;
+}
+.contact{
+	width: 770px;
+	margin: 0 auto;
+	margin-top:50px; 
+}
+.contact .intersting{
+	font-size: 16px;
+	font-weight: bold;
+	color: #333;
+	margin-bottom: 20px;
+}
+.contact .intersting span{
+	color: #2e77c8;
+}
+.contact .careful{
+	font-size: 16px;
+	font-weight: bold;
+	color: #333;
+}
+.contact ul{
+	margin-top: 10px;
+}
+.contact ul li{
+	line-height: 26px;
+	color: #7a7a7a;
+	list-style-type:disc;
+}
+.first a{
+	color: #333;
+}
+.agreement{
+	display: block;
+	width: 300px;
+	text-align: center;
+	height:70px;
+	line-height: 70px; 
+	margin: 0 auto;
+	position: relative;
+	padding-left: 20px;
+}
+.agreement input{
+	width: 16px;
+	height: 16px;
+	top: 27px;
+	left: 20px;
+	position: absolute;
+}
+.agreement-en{
+	width: 92%;
+}
+.commite{
+	width: 500px;
+	text-align: center;
+	margin: 0 auto;
+}
+.commite button,.getAddress{
+	width: 200px;
+	height: 50px;
+	color: #fff;
+	margin: 0 auto;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 50px;
+	background:#0e62c0;
+	border: none;
+	outline: none;
+}
+.commite .save{
+	margin-left: 30px;
+}
+
+.getAddress{
+	display: block;
+	margin: 0 auto;
+	margin-top: 40px;
+}
